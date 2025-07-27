@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "metal-button-error",
+  "type": "registry:ui",
+  "title": "Metal Button Error",
+  "author": "Gaurav Soni",
+  "description": "A shadcn/ui based button but it's made of metal and it's red",
+  "registryDependencies": [
+    "https://button.gauravsoni/r/metal-button.json"
+  ],
+  "files": [
+    {
+      "path": "registry/example/metal-button-error.tsx",
+      "content": "import { MetalButton } from \"@/components/metal-button\";\n\nexport function MetalButtonError() {\n  return (\n    <div className=\"flex min-h-screen items-center justify-center\">\n      <MetalButton variant=\"error\">Error</MetalButton>\n    </div>\n  );\n}\n",
+      "type": "registry:ui",
+      "target": "components/metal-button-error.tsx"
+    }
+  ]
+}

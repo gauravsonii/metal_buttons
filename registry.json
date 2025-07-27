@@ -1,0 +1,116 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "Gaurav",
+  "homepage": "https://button.gauravsoni",
+  "items": [
+    {
+      "name": "metal-button",
+      "type": "registry:ui",
+      "author": "Gaurav Soni",
+      "title": "Metal Button",
+      "description": "A shadcn/ui based button but it's made of metal",
+      "files": [
+        {
+          "path": "registry/metal-button/metal-button.tsx",
+          "type": "registry:ui",
+          "target": "components/metal-button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "metal-button-primary",
+      "type": "registry:ui",
+      "author": "Gaurav Soni",
+      "title": "Metal Button Primary",
+      "description": "A shadcn/ui based button but it's made of metal and it's blue",
+      "registryDependencies": ["https://button.gauravsoni/r/metal-button.json"],
+
+      "files": [
+        {
+          "path": "registry/example/metal-button-primary.tsx",
+          "type": "registry:ui",
+          "target": "components/metal-button-primary.tsx"
+        }
+      ]
+    },
+    {
+      "name": "metal-button-success",
+      "type": "registry:ui",
+      "author": "Gaurav Soni",
+      "title": "Metal Button Success",
+      "description": "A shadcn/ui based button but it's made of metal and it's green",
+      "registryDependencies": ["https://button.gauravsoni/r/metal-button.json"],
+
+      "files": [
+        {
+          "path": "registry/example/metal-button-success.tsx",
+          "type": "registry:ui",
+          "target": "components/metal-button-success.tsx"
+        }
+      ]
+    },
+    {
+      "name": "metal-button-error",
+      "type": "registry:ui",
+      "author": "Gaurav Soni",
+      "title": "Metal Button Error",
+      "description": "A shadcn/ui based button but it's made of metal and it's red",
+      "registryDependencies": ["https://button.gauravsoni/r/metal-button.json"],
+
+      "files": [
+        {
+          "path": "registry/example/metal-button-error.tsx",
+          "type": "registry:ui",
+          "target": "components/metal-button-error.tsx"
+        }
+      ]
+    },
+    {
+      "name": "metal-button-gold",
+      "type": "registry:ui",
+      "author": "Gaurav Soni",
+      "title": "Metal Button Gold",
+      "description": "A shadcn/ui based button but it's made of gold metal",
+      "registryDependencies": ["https://button.gauravsoni/r/metal-button.json"],
+
+      "files": [
+        {
+          "path": "registry/example/metal-button-gold.tsx",
+          "type": "registry:ui",
+          "target": "components/metal-button-gold.tsx"
+        }
+      ]
+    },
+    {
+      "name": "metal-button-bronze",
+      "type": "registry:ui",
+      "author": "Gaurav Soni",
+      "title": "Metal Button Bronze",
+      "description": "A shadcn/ui based button but it's made of bronze metal",
+      "registryDependencies": ["https://button.gauravsoni/r/metal-button.json"],
+
+      "files": [
+        {
+          "path": "registry/example/metal-button-bronze.tsx",
+          "type": "registry:ui",
+          "target": "components/metal-button-bronze.tsx"
+        }
+      ]
+    },
+    {
+      "name": "metal-button-demo",
+      "type": "registry:page",
+      "title": "Metal Button Basic Example",
+      "description": "A basic example of the metal button component",
+      "author": "Lakshay Bhushan",
+      "registryDependencies": ["https://button.gauravsoni/r/metal-button.json"],
+      "files": [
+        {
+          "path": "registry/example/metal-button-demo.tsx",
+          "type": "registry:page",
+          "target": "components/metal-button-demo.tsx"
+        }
+      ]
+    }
+  ]
+}

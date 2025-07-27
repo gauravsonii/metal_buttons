@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "metal-button-gold",
+  "type": "registry:ui",
+  "title": "Metal Button Gold",
+  "author": "Gaurav Soni",
+  "description": "A shadcn/ui based button but it's made of gold metal",
+  "registryDependencies": [
+    "https://button.gauravsoni/r/metal-button.json"
+  ],
+  "files": [
+    {
+      "path": "registry/example/metal-button-gold.tsx",
+      "content": "import { MetalButton } from \"@/components/metal-button\";\n\nexport function MetalButtonGold() {\n  return (\n    <div className=\"flex min-h-screen items-center justify-center\">\n      <MetalButton variant=\"gold\">Gold</MetalButton>\n    </div>\n  );\n}\n",
+      "type": "registry:ui",
+      "target": "components/metal-button-gold.tsx"
+    }
+  ]
+}

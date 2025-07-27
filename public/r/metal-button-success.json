@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "metal-button-success",
+  "type": "registry:ui",
+  "title": "Metal Button Success",
+  "author": "Gaurav Soni",
+  "description": "A shadcn/ui based button but it's made of metal and it's green",
+  "registryDependencies": [
+    "https://button.gauravsoni/r/metal-button.json"
+  ],
+  "files": [
+    {
+      "path": "registry/example/metal-button-success.tsx",
+      "content": "import { MetalButton } from \"@/components/metal-button\";\n\nexport function MetalButtonSuccess() {\n  return (\n    <div className=\"flex min-h-screen items-center justify-center\">\n      <MetalButton variant=\"success\">Success</MetalButton>\n    </div>\n  );\n}\n",
+      "type": "registry:ui",
+      "target": "components/metal-button-success.tsx"
+    }
+  ]
+}

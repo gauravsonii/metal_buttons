@@ -10,7 +10,7 @@
 </p>
 
 <a href="https://metal-buttons.GauravSoni">
-  <img src="./app/opengraph-image.png" alt="Metal Buttons" />
+  <img src="./app/metalbuttons-image.png" alt="Metal Buttons" />
 </a>
 
 ## Installation
